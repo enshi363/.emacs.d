@@ -1,0 +1,15 @@
+elpa/*
+auto-save-list/*
+eshell/*
+snippets/*
+history
+ido.last
+org-clock-save.el
+projectile-bookmarks.eld
+projectile.cache
+smex-items
+tramp
+.mc-lists.el
+.session
+.smex-items
+ac-comphist.dat

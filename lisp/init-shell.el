@@ -1,0 +1,7 @@
+(require-package 'exec-path-from-shell)
+(when (memq window-system '(mac ns))
+    (exec-path-from-shell-initialize))
+(global-set-key (kbd "C-;") 'eshell)
+(autoload 'ansi-color-for-comint-mode-on "ansi-color" nil t) 
+(add-hook 'shell-mode-hook 'ansi-color-for-comint-mode-on t)
+(provide 'init-shell)
