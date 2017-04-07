@@ -59,6 +59,7 @@
   (require 'init-shell)
   (require 'init-projectile)
   (require 'init-protobuf)
+  (require 'init-markdown)
   ;;(require 'init-company)
   (require 'init-autocomplete)
 
@@ -89,6 +90,9 @@
  '(custom-safe-themes
    (quote
     ("e87a2bd5abc8448f8676365692e908b709b93f2d3869c42a4371223aab7d9cf8" "0788bfa0a0d0471984de6d367bb2358c49b25e393344d2a531e779b6cec260c5" "6998bd3671091820a6930b52aab30b776faea41449b4246fdce14079b3e7d125" default)))
+ '(markdown-toc-header-toc-end "<!-- customized end -->")
+ '(markdown-toc-header-toc-start "<!-- customized start-->")
+ '(markdown-toc-header-toc-title "**customized title**")
  '(package-selected-packages
    (quote
     (nlinum web-mode projectile material-theme magit js2-mode helm-smex helm-css-scss helm-ag company-php color-theme-solarized airline-themes))))
