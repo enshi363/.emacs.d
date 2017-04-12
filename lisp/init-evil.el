@@ -1,6 +1,7 @@
 (require-package 'goto-chg)
 (require-package 'evil)
 (require-package 'evil-leader)
+(require-package 'evil-matchit)
 
 
 (global-evil-leader-mode)
@@ -32,5 +33,18 @@
     "pp"  'projectile-switch-project
     )
 
+;;; esc quits
+(define-key evil-normal-state-map [escape] 'keyboard-quit)
+(define-key evil-visual-state-map [escape] 'keyboard-quit)
+
+
+(cl-loop for (mode . state) in '((inferior-emacs-lisp-mode . emacs)
+                              (shell-mode . insert)
+                              (git-commit-mode . insert)
+                              (git-rebase-mode . emacs)
+                              (magit-branch-manager-mode . emacs))
+      do (evil-set-initial-state mode state))
+
+(global-evil-matchit-mode 1)
 
 (provide 'init-evil)
