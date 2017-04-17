@@ -2,6 +2,7 @@
 (require-package 'evil)
 (require-package 'evil-leader)
 (require-package 'evil-matchit)
+(require-package 'undo-tree)
 
 
 (global-evil-leader-mode)

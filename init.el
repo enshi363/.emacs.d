@@ -89,7 +89,7 @@
  ;; If there is more than one, they won't work right.
  '(custom-safe-themes
    (quote
-    ("e87a2bd5abc8448f8676365692e908b709b93f2d3869c42a4371223aab7d9cf8" "0788bfa0a0d0471984de6d367bb2358c49b25e393344d2a531e779b6cec260c5" "6998bd3671091820a6930b52aab30b776faea41449b4246fdce14079b3e7d125" default)))
+    ("84d2f9eeb3f82d619ca4bfffe5f157282f4779732f48a5ac1484d94d5ff5b279" "e87a2bd5abc8448f8676365692e908b709b93f2d3869c42a4371223aab7d9cf8" "0788bfa0a0d0471984de6d367bb2358c49b25e393344d2a531e779b6cec260c5" "6998bd3671091820a6930b52aab30b776faea41449b4246fdce14079b3e7d125" default)))
  '(markdown-command "/opt/local/bin/multimarkdown")
  '(markdown-toc-header-toc-end "<!-- customized end -->")
  '(markdown-toc-header-toc-start "<!-- customized start-->")
