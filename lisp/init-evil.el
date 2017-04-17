@@ -11,6 +11,7 @@
 (evil-leader/set-key
   "e" 'find-file
   "b" 'switch-to-buffer
+  "d"  'helm-show-kill-ring
   "k" 'kill-buffer)
 
 
