@@ -46,6 +46,8 @@
   (require 'init-elpa)
   (require 'init-common)
   (require 'init-smex)
+  (require 'init-yasnippet)
+  (require 'init-autocomplete)
   (require 'init-go)
   (require 'init-helm)
   (require 'init-javascript)
@@ -54,14 +56,12 @@
   (require 'init-php)
 
   (require 'init-evil)
-  (require 'init-yasnippet)
   (require 'init-theme)
   (require 'init-shell)
   (require 'init-projectile)
   (require 'init-protobuf)
   (require 'init-markdown)
   ;;(require 'init-company)
-  (require 'init-autocomplete)
 
   ;; comment below line if you want to setup color theme in your own way
   ; (if (or (display-graphic-p) (string-match-p "256color"(getenv "TERM"))) (require 'init-color-theme))

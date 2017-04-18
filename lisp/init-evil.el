@@ -13,6 +13,7 @@
   "e" 'find-file
   "b" 'switch-to-buffer
   "d"  'helm-show-kill-ring
+  "x" 'helm-M-x
   "k" 'kill-buffer)
 
 

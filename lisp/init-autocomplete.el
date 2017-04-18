@@ -32,4 +32,8 @@
 
 
 
+(set-face-background 'ac-candidate-face "lightgray")
+(set-face-underline 'ac-candidate-face "darkgray")
+(set-face-background 'ac-selection-face "darkOrange")
+
 (provide 'init-autocomplete)

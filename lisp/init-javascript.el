@@ -5,4 +5,5 @@
 (add-to-list 'interpreter-mode-alist '("node" . js2-mode))
 
 
+
 (provide 'init-javascript)
