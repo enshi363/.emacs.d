@@ -1,3 +1,4 @@
+(setq evil-want-C-u-scroll t)
 (require-package 'goto-chg)
 (require-package 'evil)
 (require-package 'evil-leader)
@@ -13,7 +14,7 @@
   "e" 'find-file
   "b" 'switch-to-buffer
   "d"  'helm-show-kill-ring
-  "x" 'helm-M-x
+  "x" 'smex
   "k" 'kill-buffer)
 
 

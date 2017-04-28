@@ -20,7 +20,7 @@
 (add-hook 'go-mode-hook (lambda ()
                           (set (make-local-variable 'company-backends) '(company-go))
                           (company-mode)))
-;;(add-hook 'after-init-hook 'global-company-mode)
+(add-hook 'after-init-hook 'global-company-mode)
 
 (setq company-flx-limit 2000)
 (with-eval-after-load 'company

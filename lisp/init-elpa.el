@@ -1,17 +1,17 @@
 (require 'package) ;; You might already have this line
-(add-to-list 'package-archives
-                       '("popkit" . "http://elpa.popkit.org/packages/"))
-;
 ;(add-to-list 'package-archives
-;             '("melpa" . "https://melpa.org/packages/"))
+                       ;'("popkit" . "http://elpa.popkit.org/packages/"))
+;
+(add-to-list 'package-archives
+             '("melpa" . "https://melpa.org/packages/"))
 
 ;(add-to-list 'package-archives
 ;             '("melpa-stable" . "https://stable.melpa.org/packages/") t)
 
 ;(add-to-list 'package-archives
 ;             '("marmalade" . "https://marmalade-repo.org/packages/") t)
-;(add-to-list 'package-archives
-;             '("gnu" . "https://elpa.gnu.org/packages/") t)
+(add-to-list 'package-archives
+             '("gnu" . "https://elpa.gnu.org/packages/") t)
 ;(package-initialize) ;; You might already have this line
 
 (defun require-package (package &optional min-version no-refresh)
