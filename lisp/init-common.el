@@ -7,6 +7,10 @@
 (require-package 'flx)
 (require-package 'flx-ido)
 
+;;setting transparent
+(set-frame-parameter (selected-frame) 'alpha '(85 . 50))
+(add-to-list 'default-frame-alist '(alpha . (85 . 50)))
+
 (global-auto-revert-mode t)
 (menu-bar-mode -1)
 (if (functionp 'tool-bar-mode) (tool-bar-mode -1))
