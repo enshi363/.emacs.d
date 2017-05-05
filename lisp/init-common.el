@@ -105,5 +105,6 @@
     )
 (global-set-key "\C-cId" 'doc-block)
 
+(add-to-list 'auto-mode-alist '("\\.todo\\'" . org-mode))
 
 (provide 'init-common) 
