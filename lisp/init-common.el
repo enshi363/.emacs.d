@@ -15,7 +15,7 @@
 (menu-bar-mode -1)
 (if (functionp 'tool-bar-mode) (tool-bar-mode -1))
 (if (functionp 'scroll-bar-mode) (scroll-bar-mode -1))
-(set-default 'cursor-type 'hbar)
+;(set-default 'cursor-type 'hbar)
 (ido-mode)
 (ido-vertical-mode 1)
 (setq ido-vertical-define-keys 'C-n-C-p-up-and-down)

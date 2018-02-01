@@ -6,7 +6,7 @@
 (helm-mode 1)
 (helm-popup-tip-mode 1)
 (helm-adaptive-mode 1)
-(helm-push-mark-mode 1)
+;(helm-push-mark-mode 1)
 (helm-top-poll-mode 1)
 
 

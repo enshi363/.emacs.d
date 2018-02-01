@@ -47,6 +47,7 @@
   (require 'init-common)
   (require 'init-smex)
   (require 'init-yasnippet)
+  (require 'init-company)
   ;(require 'init-autocomplete)
   (require 'init-go)
   (require 'init-helm)
@@ -54,6 +55,7 @@
   (require 'init-web)
   (require 'init-git)
   (require 'init-php)
+  (require 'init-typescript)
 
   (require 'init-evil)
   (require 'init-theme)
@@ -61,7 +63,6 @@
   (require 'init-projectile)
   (require 'init-protobuf)
   (require 'init-markdown)
-  (require 'init-company)
 
   ;; comment below line if you want to setup color theme in your own way
   ; (if (or (display-graphic-p) (string-match-p "256color"(getenv "TERM"))) (require 'init-color-theme))
@@ -87,9 +88,6 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(custom-safe-themes
-   (quote
-    ("84d2f9eeb3f82d619ca4bfffe5f157282f4779732f48a5ac1484d94d5ff5b279" "e87a2bd5abc8448f8676365692e908b709b93f2d3869c42a4371223aab7d9cf8" "0788bfa0a0d0471984de6d367bb2358c49b25e393344d2a531e779b6cec260c5" "6998bd3671091820a6930b52aab30b776faea41449b4246fdce14079b3e7d125" default)))
  '(markdown-command "/opt/local/bin/multimarkdown")
  '(markdown-toc-header-toc-end "<!-- customized end -->")
  '(markdown-toc-header-toc-start "<!-- customized start-->")
