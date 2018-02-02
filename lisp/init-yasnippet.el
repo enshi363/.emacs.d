@@ -5,5 +5,6 @@
         ))
 (yas-global-mode 1)
 
+(require-package 'yasnippet-snippets)
 
 (provide 'init-yasnippet)

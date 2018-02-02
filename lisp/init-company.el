@@ -2,6 +2,7 @@
 (require-package 'company-flx)
 (require-package 'company-php)
 (require-package 'company-go)
+(require-package 'php-eldoc)
 (require-package 'ac-php)
 (company-mode 1)
 (setq company-tooltip-limit 20)                      ; bigger popup window
@@ -10,11 +11,20 @@
 (setq company-begin-commands '(self-insert-command)) ; start autocompletion only after typing
 
 
+;(add-hook 'php-mode-hook
+         ;'(lambda ()
+            ;(require 'company-php)
+            ;(company-mode t)
+            ;(add-to-list 'company-backends 'company-ac-php-backend )))
+
 (add-hook 'php-mode-hook
-         '(lambda ()
-            (require 'company-php)
-            (company-mode t)
-            (add-to-list 'company-backends 'company-ac-php-backend )))
+          '(lambda ()
+             (require 'ac-php)
+             (require 'company-php)
+             (company-mode t)
+             (ac-php-core-eldoc-setup) ;; enable eldoc
+             (make-local-variable 'company-backends)
+             (add-to-list 'company-backends 'company-ac-php-backend)))
 
 
 (add-hook 'go-mode-hook (lambda ()
